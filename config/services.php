@@ -14,6 +14,12 @@ return [
     |
     */
 
+    'nexmo' => [
+        'key' => env('NEXMO_KEY'),
+        'secret' => env('NEXMO_SECRET'),
+//        Grab from Nexmo dashboard.
+        'sms_from' => '18023574278'
+    ],
     'mailgun' => [
         'domain' => env('MAILGUN_DOMAIN'),
         'secret' => env('MAILGUN_SECRET'),

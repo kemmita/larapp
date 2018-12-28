@@ -1,8 +1,9 @@
 @extends('template')
 @section('content')
     <div class="container">
-        <h1>{{$user->name}}'s Profile</h1>
-        <p>
+        <h1 >{{$user->name}}'s Profile</h1>
+        <img src="{{asset('storage/'.$user->profile_pic)}}" class="img-thumbnail" style="height: 50px; width: 50px;">
+        <p class="text-center">
             See what {{$user->name}} has been up to on LaravelAnswers.
         </p>
         <div class="row">

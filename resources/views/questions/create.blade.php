@@ -12,5 +12,4 @@
             <input type="submit" class="btn btn-primary" value="Submit Question">    <a href="{{ route('home') }}" class="btn btn-warning float-right">Back</a>
         </form>
     </div>
-
 @endsection
