@@ -25,3 +25,7 @@ Route::get('/upload', 'UploadController@getUpload')->name('upload');
 Route::post('/upload', 'UploadController@postUpload');
 
 Route::get('/github/{username}', 'ApiController@github')->name('github');
+
+
+Route::get('/login/{provider}', 'Auth\SocialAccountController@redirectToProvider');
+Route::get('/login/{provider}/callback', 'Auth\SocialAccountController@handleProviderCallback');

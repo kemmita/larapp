@@ -68,6 +68,7 @@
                 </div>
             </div>
         </div>
+        <a href="{{url('login/twitter')}}" class="btn btn-success">twitter lgoin</a>
     </div>
 </div>
 @endsection

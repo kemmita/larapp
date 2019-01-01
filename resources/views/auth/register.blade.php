@@ -70,6 +70,7 @@
                         </div>
                     </form>
                 </div>
+                <a href="{{url('login/twitter')}}" class="btn btn-success">twitter login/register</a>
             </div>
         </div>
     </div>
